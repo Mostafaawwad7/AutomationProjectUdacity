@@ -5,7 +5,7 @@ Feature: Register With New Data
     When user enter "Mostafa" and "Awwad" as name
     And user choose gender
     And user enter date of birth
-    And user enter "mostafaawad3111@gmail.com"
+    And user enter "mostafaawad311111@gmail.com"
     And user enter company name as "Udacity"
     And Uncheck Newsletter box
     And user enter "123456789" as password

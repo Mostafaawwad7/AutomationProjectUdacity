@@ -5,7 +5,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.openqa.selenium.support.ui.Select;
 
@@ -92,6 +94,19 @@ public class SC1_Registeration
        String expectedResult = register.confirmRegMsg().getText();
         String actualResult = "Your registration completed";
         Assert.assertTrue(actualResult.contains(expectedResult),"Registration Failed");
+        //Updated After Review
+        // "Awesome but it will be nice, if you make assertion for Color of Registration Message as required"
+        // I didn't wrote it in POM to make Detailed steps ;)
+        //1.identify text
+        WebElement text = Hooks.driver.findElement(By.cssSelector("div[class=\"result\"]"));
+        //2.Obtain color in RGBA
+        String colorRgba = text.getCssValue("color");
+        //3. Convert rgba to hex
+        String hex = Color.fromString(colorRgba).asHex();
+        //4. Confirm the color
+        Assert.assertEquals(hex,"#4cb17c");
+
+
     }
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="174.427">
-    <testcase classname="Add different products to wishlist" name="adding phone to wishlist" time="18.903">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="141.906">
+    <testcase classname="Add different products to wishlist" name="adding phone to wishlist" time="12.86">
         <system-out><![CDATA[Given User choose any of the products.......................................passed
 When User click add to wishlist button......................................passed
 And Confirming that the product is added to Wishlist........................passed
@@ -8,7 +8,7 @@ And Go to Wishlist..........................................................pass
 Then Check Wishlist.........................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="user could add different products to compare list" name="add products to compare list" time="14.511">
+    <testcase classname="user could add different products to compare list" name="add products to compare list" time="11.187">
         <system-out><![CDATA[Given User choose any of the products to add to compare list................passed
 When User click add to compare button.......................................passed
 And Confirming that the product is added to Compare list....................passed
@@ -16,7 +16,7 @@ And Go to compare list......................................................pass
 Then Check Comparelist......................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Create Order" name="user make an order and entering all of his informations" time="30.064">
+    <testcase classname="Create Order" name="user make an order and entering all of his informations" time="20.476">
         <system-out><![CDATA[Given User choose the product...............................................passed
 Given User click add to cart button.........................................passed
 Given Confirming that the product is added to cart..........................passed
@@ -32,12 +32,12 @@ And User confirm order......................................................pass
 Then Confirm that order is done successfully................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Register With New Data" name="Test Register" time="14.165">
+    <testcase classname="Register With New Data" name="Test Register" time="10.968">
         <system-out><![CDATA[Given user click on register................................................passed
 When user enter "Mostafa" and "Awwad" as name...............................passed
 And user choose gender......................................................passed
 And user enter date of birth................................................passed
-And user enter "mostafaawad3111@gmail.com"..................................passed
+And user enter "mostafaawad311111@gmail.com"................................passed
 And user enter company name as "Udacity"....................................passed
 And Uncheck Newsletter box..................................................passed
 And user enter "123456789" as password......................................passed
@@ -45,7 +45,7 @@ And user click on register button...........................................pass
 Then Confirm that Registration is done......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login with valid data" name="Test Login" time="12.587">
+    <testcase classname="Login with valid data" name="Test Login" time="10.298">
         <system-out><![CDATA[Given user click on Login...................................................passed
 When user enter valid mail..................................................passed
 And user enter valid password...............................................passed
@@ -53,7 +53,7 @@ And user click on login button..............................................pass
 Then user confirm login by checking the URL.................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test Reset password" name="Test forget password" time="13.053">
+    <testcase classname="Test Reset password" name="Test forget password" time="10.232">
         <system-out><![CDATA[Given user click on login link..............................................passed
 Given user click on forget password.........................................passed
 When user enter his email...................................................passed
@@ -61,38 +61,38 @@ And user click on recover...................................................pass
 Then user should recieve confirmation message...............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search for a Product" name="Search for any product" time="10.362">
+    <testcase classname="Search for a Product" name="Search for any product" time="8.892">
         <system-out><![CDATA[Given user click on search field and search for product.....................passed
 And user click on search button.............................................passed
 Then user should be navigated to the right URL..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Checking Changing between currencies" name="change currency to Euro" time="10.715">
+    <testcase classname="Checking Changing between currencies" name="change currency to Euro" time="9.824">
         <system-out><![CDATA[Given user click on currency button.........................................passed
 And user change currency to EURO............................................passed
 Then all products should be shown in EUROS..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Hover a category and choosing subCategory" name="choosing subCategory" time="11.385">
+    <testcase classname="Hover a category and choosing subCategory" name="choosing subCategory" time="10.65">
         <system-out><![CDATA[Given user hover category...................................................passed
 And user click on subCategory...............................................passed
 Then user should be navigated to the subCategory URL........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Filter with colour" name="Filter shoes with thier color" time="11.1">
+    <testcase classname="Filter with colour" name="Filter shoes with thier color" time="8.9">
         <system-out><![CDATA[Given user hover Apparel category...........................................passed
 And user click on shoes subCategory.........................................passed
 Then user should be navigated to the shoes subCategory URL..................passed
 And user could filter by colour.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Select Different tags" name="choose random categories and tags" time="11.873">
+    <testcase classname="Select Different tags" name="choose random categories and tags" time="12.99">
         <system-out><![CDATA[Given user select random category...........................................passed
 When user select random tag.................................................passed
 Then user should see relative products to the selected tag..................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="user could add different products to Shopping cart" name="Adding and checking cart" time="15.307">
+    <testcase classname="user could add different products to Shopping cart" name="Adding and checking cart" time="14.349">
         <system-out><![CDATA[Given User choose the product...............................................passed
 When User click add to cart button..........................................passed
 And Confirming that the product is added to cart............................passed
